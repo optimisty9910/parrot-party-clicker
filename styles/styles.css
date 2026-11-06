@@ -1,26 +1,38 @@
 body {
-    text-align: center;
-  }
-  
-  main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 2%;
-  }
-  
-  .box {
-    margin: 2%;
-    padding: 3%;
-    height: 5em;
-    width: 5em;
-    border: 2px solid black;
-    font-size: 0.8em;
-  }
-  
-  .box > p {
-    color: blue;
-    margin: 20%;
-    user-select: none;
-  }
-  
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2%;
+  font-size: 1.2em;
+}
+
+.box {
+  margin: 2%;
+  padding: 3%;
+  height: 5em;
+  width: 5em;
+  border: 2px solid black;
+  font-size: 0.8em;
+}
+
+.box > p {
+  color: blue;
+  margin: 20%;
+  user-select: none;
+}
+
+.large {
+  width: 200px;
+}
+
+.pressed {
+  font-size: 2em;
+}
+
+.clicked {
+  background-image: url(https://cultofthepartyparrot.com/parrots/hd/parrot.gif);
+}
